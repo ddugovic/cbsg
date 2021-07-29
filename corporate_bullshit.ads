@@ -10,12 +10,13 @@
 --      from my colleagues and friends, especially:
 --        Mili Eppler, Nigel Findlater, Emilio Nualart,
 --        Bernhard Maertl, Paul Della Marta, Georges Modol,
---        Andrew Fox, Kurt Dickmann, Georg Bauhaus, Frederic Praca
+--        Andrew Fox, Kurt Dickmann, Georg Bauhaus, Frederic Praca,
+--        David Malinge
 --  - high-level, responsive empowerments by Ludovic Brenta
 --
 --  Legal licensing note:
 --
---  Copyright (c) Gautier de Montmollin 2006 .. 2014
+--  Copyright (c) Gautier de Montmollin 2006 .. 2019
 --  CH-8810 Horgen
 --  SWITZERLAND
 --
@@ -37,8 +38,8 @@
 --  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 --  THE SOFTWARE.
 --
--- NB: this is the MIT License, as found 12-Sep-2007 on the site
--- http://www.opensource.org/licenses/mit-license.php
+--  NB: this is the MIT License, as found 12-Sep-2007 on the site
+--  http://www.opensource.org/licenses/mit-license.php
 -------------------------------------------------------------------------
 
 generic
@@ -48,11 +49,9 @@ generic
 package Corporate_Bullshit is
 
    function Sentence return String;
-
    function Workshop return String;
-
    function Short_Workshop return String;
-
+   function Short_Meeting return String;
    function Financial_Report return String;
 
 end Corporate_Bullshit;
